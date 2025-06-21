@@ -1,6 +1,6 @@
-# TeamTrack
+# CRUDAPI
 
-TeamTrack is a collaborative to-do list API built with Java Spring Boot and MongoDB. It allows users to create, manage, and share their tasks with team members, enhancing productivity and collaboration.
+CRUDAPI is a collaborative to-do list API built with Java Spring Boot and MongoDB. It implements APIs to create, manage, and share their tasks with team members, enhancing productivity and collaboration.
 
 ## Features
 
@@ -11,40 +11,7 @@ TeamTrack is a collaborative to-do list API built with Java Spring Boot and Mong
 - **Priority Levels**: Assign priority levels to tasks.
 - **Due Dates**: Set and manage due dates for tasks.
 
-## Technologies Used
-
-- **Java**: Programming language used to build the application.
-- **Spring Boot**: Framework for building RESTful APIs.
-- **MongoDB**: NoSQL database for storing user and task data.
-- **Maven**: Dependency management and build tool.
-
-## Prerequisites
-
-- Java 11 or higher
-- MongoDB installed and running
-- Maven installed
-
 ## Getting Started
-
-### Clone the Repository
-
-```bash
-git clone https://github.com/iaanuj/TeamTrackAPI.git
-cd TeamTrackAPI
-```
-
-### Configure MongoDB
-
-1. **(Option 1)By Editing the application.yml[Not Recommended]:**
-
-    you can enter your mongodb URI directly inside the application.yml file
-    by replacing the variable.
-
-2. **(Option 2)By Creating Environment Variables:**
-    
-    if you are using Intellij it provides an option to create environment variables for running the code.
-
-**Variables in application.properties are defined as below:**
 
 | Variable        | Value                                                   |
 |-----------------|---------------------------------------------------------|
@@ -53,12 +20,6 @@ cd TeamTrackAPI
 | FRONTEND_URL    | Frontend URL to connect with backend using @CrossOrigin |
 | MAIL_USERNAME   | Your mail username                                      |
 | MAIL_PASSWORD   | Your generated app-specific password.                   |
-
-
-
-### Build The Project
-
-Run the main `TeamTrack.java` file to start the project.
 
 
 ## Endpoints
